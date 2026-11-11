@@ -6,21 +6,21 @@ function show() {
      displayarea.innerHTML=`<p>${area}</p>`
 }
 
-function show() {
+function square() {
     let lenght=document.getElementById('lenght').value
     let displayarea=document.getElementById('display2')
     let area =lenght*lenght
     displayarea.innerHTML=`<p>${area}</p>`
 }
 
-function show() {
+function circle() {
     let radius= document.getElementById('radius').value
     let displayarea=document.getElementById('display3')
     let area = Math.PI*radius**2
      displayarea.innerHTML=`<p>${area}</p>`
 } 
 
-function show() {
+function quadilateral() {
     let diagonal=document.getElementById('diagonal').value
     let height1=Number(document.getElementById('height1').value)
     let height2= Number(document.getElementById('height2').value)
